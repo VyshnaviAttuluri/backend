@@ -379,7 +379,7 @@ app.post('/cancel-booking', (req, res) => {
 
 // Connect to the database and start the server
 connectToDB(() => {
-    app.listen( () => {
+    app.listen(9000, () => {
         console.log("Server running at https://nationalinfoportal.onrender.com");
     });
-});
+})
